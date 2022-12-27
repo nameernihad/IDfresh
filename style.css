@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@500&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@500&family=Raleway:wght@100&family=Rubik+Spray+Paint&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.navigation{
+    width: 100%;
+    height: 110px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+}
+.logo{
+    width: 120px;
+    height: 100px;
+    padding-left: 30px;
+    padding-top: 7px;
+    cursor: pointer;
+}
+li,a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline;
+    padding: 30px 25px;
+}
+.nav_links li a{
+    transition: all .3s ease 0s;
+}
+.nav_links li a:hover{
+    color: #16a695;
+}
+.video{
+    width: 100%;
+    height: 500px;
+    background-color: #16a695;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+    
+}
+.mainpic{
+    width: 1519px;
+    height: 854px;
+}
+.image1{
+    width: 100%;
+    height: 100%;
+}
+.rice {
+    width: 1519px;
+    height: 855px;
+    background-image: url(id\ rice.jpg);
+    background-size: cover;
+    padding: 100px;
+}
+.house {
+    width: 1519px;
+    height: 855px;
+    background-image: url(house.jpg);
+    background-size: cover;
+}
+.text-1{
+    color: #5e351d;
+    font-family: 'Martian Mono', monospace;
+    
+}
+.text-2{
+ font-family: 'Raleway', sans-serif;
+ font-weight: 1000;
+ line-height: 1.1;
+ color: #333333;
+}
+.text-3{
+    color: #333333;
+    font-weight: 1000;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.bt1{
+    color: #5e351d;
+    border: 2px solid #5e351d;
+    padding: 5px 5px;
+    background-color: transparent;
+    box-sizing: border-box;
+    width: 120px;
+}
+.png-main{
+    background-color:transparent;
+    width: 350px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    margin-left: 30px;
+    
+}
+.png1{
+    background-color:transparent;
+    width: 70px;
+    height: 65px;
+}
+.png1 p{
+    width: 185px;
+    height: 25px;
+}
+.house h1{
+    color: #fff;
+    margin: 100px;
+}
+.house{
+    padding: 30px;
+}
+.text-mid,.text-2{
+    color: #fff;
+    font-family: 'Martian Mono', monospace;;
+}
+.text-mid{
+    background-color: transparent;
+    width: 517px;
+    height: 10px;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.text-mid p{
+ font-family: 'Raleway', sans-serif;
+Font size: 14px;
+Font weight: 400;
+Line height: 20px;
+Font color: rgb(255, 255, 255);
+}
+.bt2{
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 5px 5px;
+    background-color: transparent;
+    box-sizing: border-box;
+    width: 120px;
+}
+.plane{
+    background-image: url(plane-2.jpg);
+    width: 100%;
+    height: 520px;
+    padding-left: 150px;
+}
+.text-h{
+    font-family: 'Prosto One', cursive;;
+   font-size: 60px;
+    font-weight: 400;
+    line-height: normal;
+    color: #5e351d;
+}
+.vid-1{
+    width: 524px;
+    height: 335px;
+    background-color: #16a695;
+}
+.yt{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer{
+    width: 100%;
+    height: 263.98px;
+    background-color: #000;
+    color: #fff;
+    padding-left: 250px;
+    padding-top: 30px;
+}
+.para2{
+    width: 902px;
+    height: 232px;
+    
+}
+#a{
+margin-left: 250px;
+line-height: 10px;
+
+}
+#b{
+    margin-left: 40px;
+}
+.img{
+    margin-left: 320px;
+}
